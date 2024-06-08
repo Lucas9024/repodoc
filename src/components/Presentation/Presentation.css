@@ -1,0 +1,8 @@
+.classCenter {
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+    display: flex;
+    padding-top: 250px;
+    margin: 0 auto;
+}

@@ -1,0 +1,21 @@
+
+@media(max-width: 1020px) {
+    .textclass {
+        font-size: 35px
+    }
+
+    .textclasstrat {
+        font-size:36px
+    }
+    }
+
+@media(max-width: 600px) {
+    .textclass {
+        font-size: 28px
+    }
+
+    .textclasstrat {
+        font-size:30px
+
+    }
+    }

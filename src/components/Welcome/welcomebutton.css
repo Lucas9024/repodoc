@@ -1,0 +1,49 @@
+.animation {
+    animation: alerta 1.5s infinite;
+}
+
+.bot {
+    background: #89C63C;
+    color: white;
+    box-shadow: 0 0 0 0 rgba(9, 165, 19, 0.50);
+    font-size: 22px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    line-height: 45px;
+    text-decoration: none;
+    transition: background, padding 500ms ease-in-out;  
+  }
+  @keyframes alerta {
+    0% {
+      transform: scale();
+    }
+    70% {
+      transform: scale();
+      box-shadow: 0 0 0 50px rgba(69, 152, 27, 0);
+    }
+      100% {
+      transform: scale();
+      box-shadow: 0 0 0 0 rgba(69, 152, 27, 0);
+    }
+  }
+
+
+
+  @keyframes btn-pulse {
+    0% { transform:scale(0.8) }
+    50% { transform:scale(1.0) }
+    100% { transform:scale(0.8) }
+}
+.btn-pulse {
+  background-color:#89C63C;
+  color:#fff;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px; 
+  -webkit-animation: btn-pulse .6s linear infinite;
+  -moz-animation: btn-pulse .6s linear infinite;
+  -ms-animation: btn-pulse .6s linear infinite;
+  -o-animation: btn-pulse .7s linear infinite;
+  animation: btn-pulse .6s linear infinite;
+}
