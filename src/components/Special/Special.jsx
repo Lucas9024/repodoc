@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import Cardio from "../../assets/special/cardiologista.png";
 import Psi from "../../assets/special/coracao.png";
@@ -16,9 +17,9 @@ import Uro from "../../assets/special/urologista.png";
 const Special = () => {
   return (
 
-    <div>
+    <div >
     
-    <h1 className='text-center text-4xl text-blackWhite font-bold justfy-start p-20'>Confira as especialidades disponíveis </h1>
+    <h1 id='especialidades' className='text-center text-4xl text-blackWhite font-bold justfy-start p-20'>Confira as especialidades disponíveis </h1>
 
     <div className='container grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 justify-between items-center cursor-pointer gap-4'>
 

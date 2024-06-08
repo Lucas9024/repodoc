@@ -11,7 +11,7 @@ const Footer = () => {
 
 
   return (
-    <div className='content'>
+    <div id='contato' className='content'>
 
       <br /><br />
       <br /><br />

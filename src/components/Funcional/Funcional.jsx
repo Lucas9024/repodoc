@@ -3,13 +3,14 @@ import Image from "../../assets/funcional/plano.png";
 import Image2 from "../../assets/funcional/selecione.png";
 import Image3 from "../../assets/funcional/acesso.png";
 import Image4 from "../../assets/funcional/agende.png";
+import './Funcional.css'
 
 
 
 const Funcional = () => {
     return (
 
-        <div className=' items-center justify-center m-0 m-auto' id="conheca">
+        <div className=' items-center justify-center m-0 m-auto' id='funcional'>
             <br />
             <br />
             <br />
